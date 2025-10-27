@@ -1,0 +1,54 @@
+h2 {
+  font-family: serif;
+  font-size: 34px;
+  letter-spacing: 3px;
+}
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  border-radius: 10px;
+  padding: 60px 20px;
+}
+body {
+  margin: 40px;
+  padding: 0 20px;
+}
+.hero-text {
+  max-width: 50%;
+  color: white;
+}
+.hero-image {
+  max-width: 50%;
+  margin-left: 20px;
+  height: auto;
+  border-radius: 10px;
+}
+.contact-info {
+  margin-top: 60px;
+  padding: 0 20px;
+  background: linear-gradient(300deg, #d3cce3, #e9c46a);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  border-radius: 10px;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
